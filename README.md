@@ -12,7 +12,7 @@ Objetivos
 3. Aprendizado: Demonstrar competências técnicas e capacidade de resolução de problemas com Python.
 
 Como Utilizar
-1. Clonar o Repositório: git clone https://github.com/seu-usuario/automacoes-python.git
+1. Clonar o Repositório: git clone https://github.com/lecosta29/automacoes-python.git
 2. Instalar Dependências: As instruções para instalar as bibliotecas necessárias estão disponíveis no arquivo requirements.txt.
 3. Executar os Scripts: Cada script vem com instruções específicas de execução no README do próprio script.
 
