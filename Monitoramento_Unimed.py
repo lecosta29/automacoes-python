@@ -6,13 +6,13 @@ from datetime import datetime
 import aiohttp
 
 # Dados de conexão
-host = 'ftp.unimedfortaleza.com.br'
-username = 'alldesk'
-password = 'c08e4t0gd8ul'
+host = ''
+username = ''
+password = ''
 
 # Dados do Telegram
-token = '6605381922:AAFoUknSUF8fGHJWHIhKFmGjnDGXGByhuGE'
-chat_id = '-1001921339354'
+token = ''
+chat_id = ''
 
 # Função para listar arquivos em um diretório
 def listar_arquivos(ftp_connection, directory):
