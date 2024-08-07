@@ -6,16 +6,16 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
 # Dados de conexão
-host = '10.10.220.51'
+host = ''
 port = 22
-username = 'cli_edp'
-password = 'ynIbeTBeU#wa'
+username = ''
+password = ''
 
 # Dados do servidor de e-mail
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = 'leticia.costa@meirelesefreitas.com.br'
-smtp_password = '16ni06ra64@Mav4'
+smtp_username = ''
+smtp_password = ''
 
 # Dados do e-mail
 sender_email = 'leticia.costa@meirelesefreitas.com.br'
