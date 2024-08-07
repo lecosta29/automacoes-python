@@ -175,8 +175,8 @@ def monitor_folder(sftp, folder_path, local_download_path, processed_files):
 
 # Função para enviar mensagem para o Telegram
 def enviar_mensagem_telegram(mensagem):
-    token = '6605381922:AAFoUknSUF8fGHJWHIhKFmGjnDGXGByhuGE'  # Substitua pelo token do seu bot
-    chat_id = '-1001678292410'  # Substitua pelo chat_id do seu canal
+    token = ''  # Substitua pelo token do seu bot
+    chat_id = ''  # Substitua pelo chat_id do seu canal
 
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     params = {
@@ -191,10 +191,10 @@ def enviar_mensagem_telegram(mensagem):
         print("Erro ao enviar mensagem para o canal do Telegram")
 
 if __name__ == "__main__":
-    host = '201.49.29.117'
+    host = ''
     port = 2222
-    username = 'cli_enelgo'
-    password = 'DYh$W5aWy$8@'
+    username = ''
+    password = ''
     base_folder = r'/enelgo/Remessa/2024'  # Update this with the base folder path
     local_download_path = r'\\10.10.220.4\batimento\RPA_VALIDACAO\GO'  # Update this with the local download path
 
