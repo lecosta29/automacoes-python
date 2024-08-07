@@ -5,16 +5,16 @@ import shutil
 from telegram import Bot
 
 # Token do seu bot no Telegram
-telegram_bot_token = '6605381922:AAFoUknSUF8fGHJWHIhKFmGjnDGXGByhuGE'
+telegram_bot_token = ''
 
 # Chat ID do seu canal ou grupo no Telegram (onde você deseja enviar as notificações)
 telegram_chat_id = '-1001914106897'
 
 # Defina as informações de conexão SFTP
-sftp_host = 'mf.zaap.net.br'
+sftp_host = ''
 sftp_port = 22
-sftp_username = 'mf'
-sftp_password = '1RyUA881zy#P'
+sftp_username = ''
+sftp_password = ''
 sftp_remote_directory = '/exportacao/Consulta'
 
 # Diretório de backup local
