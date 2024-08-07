@@ -8,10 +8,10 @@ from telegram import Bot
 import requests
 
 # Configurações de conexão
-host = "10.10.220.51"
+host = ""
 port = 22
-username = "cli_tim"
-password = "fN@M11u*z2Tw"
+username = ""
+password = ""
 remote_path = '/tim_files/Recebidos'
 local_dict_file = "sftp_files.pkl"  # Arquivo para armazenar o dicionário local
 
