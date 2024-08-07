@@ -9,10 +9,10 @@ from telegram import Bot
 import requests
 
 # Configurações de conexão
-host = 'sftp.aguasdobrasil.recupera.com.br'
+host = ''
 port = 22
-username = 'mfreitas-agu'
-password = 'xh%%WK[%L3[g%%[L'
+username = ''
+password = ''
 remote_path = '/upload'
 local_dict_file = "sftp_logGAB.pkl"  # Arquivo para armazenar o dicionário local
 
@@ -44,8 +44,8 @@ else:
 
 # Função para enviar mensagem para o canal do Telegram
 def enviar_mensagem_telegram(mensagem):
-    token = '6605381922:AAFoUknSUF8fGHJWHIhKFmGjnDGXGByhuGE'  # Substitua pelo token do seu bot
-    chat_id = '-1002111389930'  # Substitua pelo chat_id do seu canal
+    token = ''  # Substitua pelo token do seu bot
+    chat_id = ''  # Substitua pelo chat_id do seu canal
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     params = {
         'chat_id': chat_id,
