@@ -42,8 +42,8 @@ local_file_dict = {}
 
 # Função para enviar mensagem para o canal do Telegram
 def enviar_mensagem_telegram(mensagem):
-    token = '6605381922:AAFoUknSUF8fGHJWHIhKFmGjnDGXGByhuGE'  # Substitua pelo token do seu bot
-    chat_id = '-1001914106897'  # Substitua pelo chat_id do seu canal
+    token = ''  # Substitua pelo token do seu bot
+    chat_id = ''  # Substitua pelo chat_id do seu canal
 
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     params = {
