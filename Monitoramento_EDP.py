@@ -18,17 +18,17 @@ smtp_username = ''
 smtp_password = ''
 
 # Dados do e-mail
-sender_email = 'leticia.costa@meirelesefreitas.com.br'
-receiver_emails = ['sistemas@meirelesefreitas.com.br', 'elizabethnascimento@meirelesefreitas.com.br', 'patriciavasconcelos@meirelesefreitas.com.br', 'patriciafurtado@meirelesefreitas.com.br', 'leidianavale@meirelesefreitas.com.br']
+sender_email = ''
+receiver_emails = ['']
 email_subject = 'Novo arquivo adicionado no SFTP'
 email_body_template = 'Um novo arquivo foi adicionado:\n\nNome do arquivo: {}\nDiretório: {}\nData: {}'
 
 # Diretórios que serão monitorados
 diretorios = [
-    '/edp/EDP SP/Exclusao',
-    '/edp/EDP SP/Remessa',
-    '/edp/EDP ES/Exclusao',
-    '/edp/EDP ES/Remessa'
+    '',
+    '',
+    '',
+    ''
 ]
 
 # Dicionário para guardar o estado dos arquivos em cada diretório
