@@ -65,7 +65,7 @@ async def monitorar_ftp():
     return None
 
 # Diretórios para monitoramento
-diretorios = ['/Alldesk/Remessa/PF', '/Alldesk/Remessa/PJ']
+diretorios = ['', '']
 
 # Dicionário para armazenar os nomes dos arquivos
 arquivos_existentes = {}
