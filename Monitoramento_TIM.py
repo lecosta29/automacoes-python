@@ -12,7 +12,7 @@ host = ""
 port = 22
 username = ""
 password = ""
-remote_path = '/tim_files/Recebidos'
+remote_path = ''
 local_dict_file = "sftp_files.pkl"  # Arquivo para armazenar o dicionário local
 
 # Configuração do logger
@@ -32,7 +32,7 @@ def notify_new_files(new_files):
         print("Nenhum novo arquivo .gz detectado.")
 
 # Diretório de backup
-local_backup_dir = r'\\10.10.220.4\Backup\TIM'
+local_backup_dir = r''
 
 # Variável para controlar se é a primeira verificação ou não
 primeira_verificacao = True
