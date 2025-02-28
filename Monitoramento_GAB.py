@@ -33,7 +33,7 @@ def notify_new_files(new_files):
         print("Nenhum novo arquivo .TXT detectado.")
 
 # Diretório de backup
-local_backup_dir = r'\\10.10.220.4\batimento\RPA_VALIDACAO\GAB'
+local_backup_dir = r''
 
 # Inicializa o dicionário local para rastrear arquivos
 if os.path.exists(local_dict_file):
@@ -102,18 +102,18 @@ def copy_file_based_on_mod_date(local_file_path, base_dir):
 def move_file_based_on_prefix(local_file_path):
     filename = os.path.basename(local_file_path)
     if filename.startswith('BT'):
-        destination_dir = r'\\10.10.220.4\batimento\Aguas do Brasil\01 - Batimento'
+        destination_dir = r''
     elif filename.startswith('B'):
-        destination_dir = r'\\10.10.220.4\batimento\Aguas do Brasil\02 - Baixa'
+        destination_dir = r''
     elif filename.startswith('C'):
-        destination_dir = r'\\10.10.220.4\batimento\Aguas do Brasil\03 - Carga'
+        destination_dir = r''
     else:
         return  # Se não corresponder a nenhuma regra, não mover o arquivo
     destination_path = os.path.join(destination_dir, filename)
     shutil.move(local_file_path, destination_path)
     print(f"Arquivo {filename} movido para {destination_dir}")
     # Copia o arquivo baseado na data de modificação para o shared drive
-    copy_file_based_on_mod_date(destination_path, r'G:\Drives compartilhados\Inteligência de Negócios 5\BORDEROS\BORDEROS 2024\AGUAS DO BRASIL')
+    copy_file_based_on_mod_date(destination_path, r'')
     # Envia mensagem ao Telegram após mover o arquivo
     mensagem_telegram = f"Nome do Arquivo: {filename} \n Movido para o Diretório de Rede:  {destination_dir}"
     enviar_mensagem_telegram(mensagem_telegram)
