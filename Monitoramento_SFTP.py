@@ -46,11 +46,11 @@ def criar_mensagem_checklist_sftp(sftps, sucesso, erros=None):
 def monitorar_sftps():
     print("Iniciando monitoramento...")
     sftps_para_monitorar = [
-        {"nome": "TIM", "host": "10.10.220.51", "porta": 22, "usuario": "", "senha": ""},
-        {"nome": "ENEL CE", "host": "10.10.220.51", "porta": 22, "usuario": "", "senha": ""},
-        {"nome": "ENEL RJ", "host": "10.10.220.51", "porta": 22, "usuario": "", "senha": "m"},
-        {"nome": "ENEL SP", "host": "10.10.220.51", "porta": 22, "usuario": "", "senha": ""},
-        {"nome": "ENEL GO", "host": "201.49.29.117", "porta": 2222, "usuario": "", "senha": ""},
+        {"nome": "", "host": "", "porta": 22, "usuario": "", "senha": ""},
+        {"nome": "", "host": "", "porta": 22, "usuario": "", "senha": ""},
+        {"nome": "", "host": "", "porta": 22, "usuario": "", "senha": "m"},
+        {"nome": "", "host": "", "porta": 22, "usuario": "", "senha": ""},
+        {"nome": "", "host": "", "porta": 2222, "usuario": "", "senha": ""},
     ]
 
     # Lista para armazenar os erros de conexão
