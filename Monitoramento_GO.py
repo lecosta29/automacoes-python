@@ -61,17 +61,17 @@ def process_and_move_files(local_download_path):
                 destination_folder = None
 
                 if "|PC1|" in content:
-                    destination_folder = r'\\10.10.220.4\batimento\Enel GO PC1\Pendentes'
+                    destination_folder = r''
                 elif "|PC2|" in content:
-                    destination_folder = r'\\10.10.220.4\batimento\Enel GO PC2\Pendentes'
+                    destination_folder = r''
                 elif "|PC3|" in content:
-                    destination_folder = r'\\10.10.220.4\batimento\Enel GO PC3\Pendentes'
+                    destination_folder = r''
                 elif "|PC4|" in content:
-                    destination_folder = r'\\10.10.220.4\batimento\Enel GO PC4\Pendentes'
+                    destination_folder = r''
                 elif "|PC5|" in content:
-                    destination_folder = r'\\10.10.220.4\batimento\Enel GO PC5\Pendentes'
+                    destination_folder = r''
                 elif "|PC6|" in content:
-                    destination_folder = r'\\10.10.220.4\batimento\Enel GO PC6\Pendentes'
+                    destination_folder = r''
 
                 if destination_folder:
                     new_file_path = os.path.join(destination_folder, filename)
@@ -195,8 +195,8 @@ if __name__ == "__main__":
     port = 2222
     username = ''
     password = ''
-    base_folder = r'/enelgo/Remessa/2024'  # Update this with the base folder path
-    local_download_path = r'\\10.10.220.4\batimento\RPA_VALIDACAO\GO'  # Update this with the local download path
+    base_folder = r''  # Update this with the base folder path
+    local_download_path = r''  # Update this with the local download path
 
     # Configurar o sistema de log
     logging.basicConfig(filename='connection_log.log', level=logging.INFO)
